@@ -14,32 +14,17 @@
   pinyin: zuò ba
   type: chinese
   comment: ! 'Covers: 吧. Cost: 0.0'
+- chinese: Tom说话比Bill慢。
+  english:
+  - Tom speaks more slowly than Bill.
+  pinyin: ! 'Failed: Tom shuōhuà bǐ Bill màn .'
+  type: chinese
+  comment: ! 'Covers: 慢. Cost: 0.0'
 - chinese: 不懂。
   english:
   - Don't understand.
   type: chinese
   comment: ! 'Covers: 懂. Cost: 0.0'
-- chinese: 我在右边。
-  english:
-  - I am on the right.
-  type: chinese
-  comment: ! 'Covers: 右边. Cost: 0.0'
-- chinese: Bob帮助了我。
-  english:
-  - Bob helped me.
-  type: chinese
-  comment: ! 'Covers: 帮助. Cost: 0.0'
-- chinese: 我在喝牛奶。
-  english:
-  - I'm drinking milk.
-  type: chinese
-  comment: ! 'Covers: 牛奶. Cost: 0.0'
-- chinese: 没门！
-  english:
-  - No way!
-  pinyin: méi mén
-  type: chinese
-  comment: ! 'Covers: 门. Cost: 2.1030449988538403e-4'
 - chinese: 虽然X，但是Y。
   english:
   - Although X, Y.
@@ -51,40 +36,12 @@
   - He's talking on the telephone.
   type: chinese
   comment: ! 'Covers: 正在. Cost: 0.0'
-- chinese: 他不喜欢喝咖啡。
+- chinese: 他卖水果。
   english:
-  - He doesn't like coffee.
+  - He sells fruit.
+  pinyin: tā mài shuǐguǒ
   type: chinese
-  comment: ! 'Covers: 咖啡. Cost: 0.0'
-- chinese: 他喜欢唱歌，也喜欢跳舞。
-  english:
-  - He likes singing and dancing.
-  - He likes to sing and dance.
-  type: chinese
-  comment: ! 'Covers: 唱歌. Cost: 0.0'
-- chinese: Spot也去了吗？
-  english:
-  - Did Spot go, too?
-  pinyin: yě qù le ma
-  type: chinese
-  comment: ! 'Covers: 也. Cost: 0.0'
-- chinese: 9点可以吗？
-  english:
-  - Would 9 o'clock be all right?
-  pinyin: diǎn kěyǐ ma
-  type: chinese
-  comment: ! 'Covers: 可以. Cost: 0.0'
-- chinese: 他七点起床。
-  english:
-  - He gets up at seven.
-  type: chinese
-  comment: ! 'Covers: 起床. Cost: 0.0'
-- chinese: 他喜欢踢足球。
-  english:
-  - He likes playing soccer.
-  - He likes playing football.
-  type: chinese
-  comment: ! 'Covers: 踢. Cost: 0.0'
+  comment: ! 'Covers: 卖. Cost: 0.0'
 - chinese: 他姓什么？
   english:
   - What is his last (family) name?
@@ -96,11 +53,85 @@
   - What does TATOEBA mean?
   type: chinese
   comment: ! 'Covers: 意思. Cost: 0.0'
-- chinese: 我们玩点什么吧
+- chinese: 他很高。
   english:
-  - Let's have some fun.
+  - He is very tall.
+  pinyin: tā hěn gāo
   type: chinese
-  comment: ! 'Covers: 玩. Cost: 0.0'
+  comment: ! 'Covers: 高. Cost: 0.0'
+- chinese: 他很喜欢旅游。
+  english:
+  - He loves taking trips.
+  type: chinese
+  comment: ! 'Covers: 旅游. Cost: 0.0'
+- chinese: 他喜欢打篮球。
+  english:
+  - He likes playing basketball.
+  pinyin: tā xǐhuan dá lánqiú
+  type: chinese
+  comment: ! 'Covers: 打. Cost: 0.0'
+- chinese: 他喜欢看足球。
+  english:
+  - He likes to watch soccer.
+  pinyin: tā xǐhuan kān zúqiú
+  type: chinese
+  comment: ! 'Covers: 足球. Cost: 0.0'
+- chinese: 他喜欢踢足球。
+  english:
+  - He likes playing football.
+  - He likes playing soccer.
+  type: chinese
+  comment: ! 'Covers: 踢. Cost: 0.0'
+- chinese: 他不喜欢喝咖啡。
+  english:
+  - He doesn't like coffee.
+  type: chinese
+  comment: ! 'Covers: 咖啡. Cost: 0.0'
+- chinese: 他喜欢唱歌，也喜欢跳舞。
+  english:
+  - He likes singing and dancing.
+  - He likes to sing and dance.
+  type: chinese
+  comment: ! 'Covers: 唱歌. Cost: 0.0'
+- chinese: 他跑步了。
+  english:
+  - He ran.
+  pinyin: tā pǎobù le
+  type: chinese
+  comment: ! 'Covers: 跑步. Cost: 0.0'
+- chinese: Bob帮助了我。
+  english:
+  - Bob helped me.
+  type: chinese
+  comment: ! 'Covers: 帮助. Cost: 0.0'
+- chinese: 我在喝牛奶。
+  english:
+  - I'm drinking milk.
+  type: chinese
+  comment: ! 'Covers: 牛奶. Cost: 0.0'
+- chinese: Spot也去了吗？
+  english:
+  - Did Spot go, too?
+  pinyin: yě qù le ma
+  type: chinese
+  comment: ! 'Covers: 也. Cost: 0.0'
+- chinese: 他怎么去上班？
+  english:
+  - How does he get to work?
+  pinyin: tā zěnme qù shàngbān
+  type: chinese
+  comment: ! 'Covers: 上班. Cost: 0.0'
+- chinese: 9点可以吗？
+  english:
+  - Would 9 o'clock be all right?
+  pinyin: diǎn kěyǐ ma
+  type: chinese
+  comment: ! 'Covers: 可以. Cost: 0.0'
+- chinese: 他七点起床。
+  english:
+  - He gets up at seven.
+  type: chinese
+  comment: ! 'Covers: 起床. Cost: 0.0'
 - chinese: 他已经走了。
   english:
   - He has left already.
@@ -111,17 +142,6 @@
   - He already boarded the plane.
   type: chinese
   comment: ! 'Covers: 已经. Cost: 0.0'
-- chinese: 他很喜欢旅游。
-  english:
-  - He loves taking trips.
-  type: chinese
-  comment: ! 'Covers: 旅游. Cost: 0.0'
-- chinese: 他很高。
-  english:
-  - He is very tall.
-  pinyin: tā hěn gāo
-  type: chinese
-  comment: ! 'Covers: 高. Cost: 0.0'
 - chinese: 他进了教室。
   english:
   - He entered the classroom.
@@ -133,11 +153,11 @@
   - What sports do you like?
   type: chinese
   comment: ! 'Covers: 运动. Cost: 0.0'
-- chinese: 你怎么去上班？
+- chinese: 你最喜欢什么水果？
   english:
-  - How do you go to work?
+  - What fruit do you like the best?
   type: chinese
-  comment: ! 'Covers: 上班. Cost: 0.0'
+  comment: ! 'Covers: 最. Cost: 0.0'
 - chinese: “你累吗？” “不，一点儿也不。”
   english:
   - ! '"Are you tired?" "No, not at all."'
@@ -193,6 +213,7 @@
 - chinese: 今天是我的生日。
   english:
   - Today is my birthday.
+  pinyin: jīntiān shì wǒ de shēngrì
   type: chinese
   comment: ! 'Covers: 生日. Cost: 0.0'
 - chinese: 他是 Taro 的弟弟。
@@ -200,44 +221,23 @@
   - He's Taro's younger brother.
   type: chinese
   comment: ! 'Covers: 弟弟. Cost: 0.0'
-- chinese: 你是最高的。
-  english:
-  - You're the tallest one.
-  pinyin: nǐ shì zuì gāo de
-  type: chinese
-  comment: ! 'Covers: 最. Cost: 0.0'
-- chinese: 他在她的旁边。
-  english:
-  - He is at her side.
-  - He's at her side.
-  - He is being side her.
-  type: chinese
-  comment: ! 'Covers: 旁边. Cost: 0.0'
-- chinese: 她喜欢跑步
-  english:
-  - She likes to run.
-  type: chinese
-  comment: ! 'Covers: 跑步. Cost: 0.0'
-- chinese: 他告诉我她生病了。
-  english:
-  - He told me that she was sick.
-  type: chinese
-  comment: ! 'Covers: 生病. Cost: 0.0'
-- chinese: Tom告诉Mary他爱她。
-  english:
-  - Tom told Mary that he loved her.
-  type: chinese
-  comment: ! 'Covers: 告诉. Cost: 0.0'
-- chinese: 你可以告诉我我错在哪儿吗？
-  english:
-  - Will you tell me where I am wrong?
-  type: chinese
-  comment: ! 'Covers: 错. Cost: 0.0'
 - chinese: 你是女学生。
   english:
   - You are a student.
   type: chinese
   comment: ! 'Covers: 女. Cost: 0.0'
+- chinese: 学生可以玩。
+  english:
+  - Students can (2Ch) play.
+  pinyin: xuésheng kěyǐ wán
+  type: chinese
+  comment: ! 'Covers: 玩. Cost: 0.0'
+- chinese: 我往学校去。
+  english:
+  - I'm headed to school. (as in, where ya headed?)
+  pinyin: wǒ wǎng xuéxiào qù
+  type: chinese
+  comment: ! 'Covers: 往. Cost: 0.0'
 - chinese: 书是哥哥的。
   english:
   - The book is my older brother's.
@@ -261,9 +261,9 @@
   comment: ! 'Covers: 票. Cost: 0.0'
 - chinese: 你有铅笔吗？
   english:
+  - Do you have a pencil?
   - Do you have any pencils?
   - Have you got a pencil?
-  - Do you have a pencil?
   type: chinese
   comment: ! 'Covers: 铅笔. Cost: 0.0'
 - chinese: 他来了我的房间。
@@ -271,11 +271,39 @@
   - He came into my room.
   type: chinese
   comment: ! 'Covers: 房间. Cost: 0.0'
+- chinese: 我也来介绍一下!
+  english:
+  - I'll also introduce myself!
+  pinyin: wǒ yě lái jièshào yīxià
+  type: chinese
+  comment: ! 'Covers: 介绍. Cost: 0.0'
+- chinese: 为什么你不休息一下?
+  english:
+  - Why don't you take a break?
+  type: chinese
+  comment: ! 'Covers: 一下. Cost: 0.0'
 - chinese: 他是第一个来的。
   english:
   - He was the first to come.
   type: chinese
   comment: ! 'Covers: 第一. Cost: 0.0'
+- chinese: 一个公司
+  english:
+  - A company, corporation
+  pinyin: yī gè gōngsī
+  type: chinese
+  comment: ! 'Covers: 公司. Cost: 0.0'
+- chinese: 他的公司在什么路？
+  english:
+  - What road is his company on?
+  type: chinese
+  comment: ! 'Covers: 路. Cost: 0.0'
+- chinese: 两个小时
+  english:
+  - Two hours
+  pinyin: liǎng gè xiǎoshí
+  type: chinese
+  comment: ! 'Covers: 小时. Cost: 0.0'
 - chinese: 希望他明天会来吧。
   english:
   - I hope he comes tomorrow.
@@ -286,16 +314,16 @@
   - I have class tomorrow.
   type: chinese
   comment: ! 'Covers: 课. Cost: 0.0'
-- chinese: 明天是我的休息日。
+- chinese: John比我大两岁。
   english:
-  - Tomorrow is my day off.
+  - John's two years older than me.
   type: chinese
-  comment: ! 'Covers: 日. Cost: 0.0'
-- chinese: 为什么你不休息一下?
+  comment: ! 'Covers: 两. Cost: 0.0'
+- chinese: 他姐姐比我哥哥大。
   english:
-  - Why don't you take a break?
+  - His elder sister is older than my eldest brother.
   type: chinese
-  comment: ! 'Covers: 一下. Cost: 0.0'
+  comment: ! 'Covers: 姐姐. Cost: 0.0'
 - chinese: 今天非常热。
   english:
   - It's awfully hot today.
@@ -306,32 +334,12 @@
   - Fish is cheap today.
   type: chinese
   comment: ! 'Covers: 鱼. Cost: 0.0'
-- chinese: 他告诉过你要做什么吗？
+- chinese: 他80岁了，但是身体很好。
   english:
-  - Did he tell you what to do?
-  pinyin: tā gàosu guò nǐ yào zuò shénme ma
+  - He is 80 years old, but he is very healthy.
+  pinyin: Tā 80 suì le, dànshì shēntǐ hěnhǎo.
   type: chinese
-  comment: ! 'Covers: 过. Cost: 0.0'
-- chinese: 他对我们很好，也要我们的帮助。
-  english:
-  - He is friendly to us and wants our help.
-  type: chinese
-  comment: ! 'Covers: 对. Cost: 0.0'
-- chinese: 他是个好孩子。
-  english:
-  - The boy is kind.
-  type: chinese
-  comment: ! 'Covers: 孩子. Cost: 0.0'
-- chinese: 你准备好了吗？
-  english:
-  - Are you ready?
-  type: chinese
-  comment: ! 'Covers: 准备. Cost: 0.0'
-- chinese: 大家好吗？
-  english:
-  - How is everyone?
-  type: chinese
-  comment: ! 'Covers: 大家. Cost: 0.0'
+  comment: ! 'Covers: 但是. Cost: 0.0'
 - chinese: 一个好的问题。
   english:
   - A good question.
@@ -344,12 +352,6 @@
   pinyin: tā wèn le wǒ yī gè wèntí
   type: chinese
   comment: ! 'Covers: 问. Cost: 0.0'
-- chinese: 今天的天气真好!
-  english:
-  - It's a fine day today.
-  pinyin: jīntiān de tiānqì zhēn hǎo
-  type: chinese
-  comment: ! 'Covers: 真. Cost: 0.0'
 - chinese: 他会是一个好丈夫。
   english:
   - He'll be a good husband.
@@ -360,17 +362,85 @@
   - He will be a good husband to my sister.
   type: chinese
   comment: ! 'Covers: 妹妹. Cost: 0.0'
+- chinese: 他是个好孩子。
+  english:
+  - The boy is kind.
+  type: chinese
+  comment: ! 'Covers: 孩子. Cost: 0.0'
+- chinese: 你准备好了吗？
+  english:
+  - Are you ready?
+  type: chinese
+  comment: ! 'Covers: 准备. Cost: 0.0'
+- chinese: 今天的天气真好!
+  english:
+  - It's a fine day today.
+  pinyin: jīntiān de tiānqì zhēn hǎo
+  type: chinese
+  comment: ! 'Covers: 真. Cost: 0.0'
+- chinese: 他的妻子是我的一个朋友。
+  english:
+  - His wife is one of my friends.
+  type: chinese
+  comment: ! 'Covers: 妻子. Cost: 0.0'
 - chinese: 他问我为什么在笑。
   english:
   - He asked me why I was laughing.
   type: chinese
   comment: ! 'Covers: 笑. Cost: 0.0'
-- chinese: 他80岁了，但是身体很好。
+- chinese: 今天我认识了一个新朋友。
   english:
-  - He is 80 years old, but he is very healthy.
-  pinyin: Tā 80 suì le, dànshì shēntǐ hěnhǎo.
+  - Today, I made a new friend.
+  pinyin: jīntiān wǒ rènshi le yī gè xīn péngyou
   type: chinese
-  comment: ! 'Covers: 但是. Cost: 0.0'
+  comment: ! 'Covers: 新. Cost: 0.0'
+- chinese: 他在她的旁边。
+  english:
+  - He is at her side.
+  - He is being side her.
+  - He's at her side.
+  type: chinese
+  comment: ! 'Covers: 旁边. Cost: 0.0'
+- chinese: 大家坐在桌子旁边。
+  english:
+  - Everyone's sitting at the table/desk.
+  pinyin: dàjiā zuò zài zhuōzi pángbiān
+  type: chinese
+  comment: ! 'Covers: 大家. Cost: 0.0'
+- chinese: 他告诉我她生病了。
+  english:
+  - He told me that she was sick.
+  type: chinese
+  comment: ! 'Covers: 生病. Cost: 0.0'
+- chinese: Tom告诉Mary他爱她。
+  english:
+  - Tom told Mary that he loved her.
+  type: chinese
+  comment: ! 'Covers: 告诉. Cost: 0.0'
+- chinese: 你可以告诉我我错在哪儿吗？
+  english:
+  - Will you tell me where I am wrong?
+  type: chinese
+  comment: ! 'Covers: 错. Cost: 0.0'
+- chinese: 右边的第一个门。
+  english:
+  - First door on the right. [Right first 1 door.]
+  pinyin: yòubian de dìyī gè mén
+  type: chinese
+  comment: ! 'Covers: 门. Cost: 0.0'
+- chinese: “你去哪儿了？”“我去了火车站送我的一个朋友。”
+  english:
+  - ! '"Where have you been?" "I have been to the station to see a friend off."'
+  - Where did you go? I went to the train station to see off my friend.
+  pinyin: nǐ qù nǎr le wǒ qù le huǒchēzhàn sòng wǒ de yī gè péngyou
+  type: chinese
+  comment: ! 'Covers: 送. Cost: 0.0'
+- chinese: 他告诉过你要做什么吗？
+  english:
+  - Did he tell you what to do?
+  pinyin: tā gàosu guò nǐ yào zuò shénme ma
+  type: chinese
+  comment: ! 'Covers: 过. Cost: 0.0'
 - chinese: 他很快就会来的。
   english:
   - He will come soon.
@@ -387,16 +457,6 @@
   - He told me to do it, so I did it.
   type: chinese
   comment: ! 'Covers: 让. Cost: 0.0'
-- chinese: 别让他打到你。
-  english:
-  - Don't let him hit you.
-  type: chinese
-  comment: ! 'Covers: 打. Cost: 0.0'
-- chinese: 他的公司在什么路？
-  english:
-  - What road is his company on?
-  type: chinese
-  comment: ! 'Covers: 公司. Cost: 0.0'
 - chinese: 你想再喝点咖啡吗？
   english:
   - Would you care for more coffee?
@@ -407,6 +467,22 @@
   - Why do you want to know what I'm thinking?
   type: chinese
   comment: ! 'Covers: 知道. Cost: 0.0'
+- chinese: 她想去宾馆。
+  english:
+  - She would like to go to the hotel.
+  pinyin: tā xiǎng qù bīnguǎn
+  type: chinese
+  comment: ! 'Covers: 宾馆. Cost: 0.0'
+- chinese: 你的手表比我的贵。
+  english:
+  - Your watch is more expensive than mine.
+  type: chinese
+  comment: ! 'Covers: 贵. Cost: 0.0'
+- chinese: 他的手表慢了十分钟。
+  english:
+  - His watch is ten minutes slow.
+  type: chinese
+  comment: ! 'Covers: 手表. Cost: 0.0'
 - chinese: 你的衣服是什么颜色？
   english:
   - What color is your dress?
@@ -424,6 +500,12 @@
   pinyin: tiānqì biàn yīn le
   type: chinese
   comment: ! 'Covers: 阴. Cost: 3.1707781089479357e-3'
+- chinese: 她的眼睛很漂亮。
+  english:
+  - Her eyes are pretty.
+  pinyin: tā de yǎnjing hěn piàoliang
+  type: chinese
+  comment: ! 'Covers: 眼睛. Cost: 0.0'
 - chinese: 妈妈下午要洗衣服。
   english:
   - Mummy has to do the washing this afternoon.
@@ -444,6 +526,12 @@
   - Its color is red.
   type: chinese
   comment: ! 'Covers: 红. Cost: 0.0'
+- chinese: ! '"你有看到我的手机吗?" "它在桌子上。"'
+  english:
+  - ! '"Have you seen my cell phone?" "It''s on the table."'
+  pinyin: nǐ yǒu kàn dào wǒ de shǒujī ma tā zài zhuōzi shàng
+  type: chinese
+  comment: ! 'Covers: 到. Cost: 0.0'
 - chinese: 您的孩子是男是女？
   english:
   - Is your child a boy or a girl?
@@ -451,8 +539,8 @@
   comment: ! 'Covers: 男. Cost: 0.0'
 - chinese: 哪本书是您的？
   english:
-  - Which is your book?
   - Which book is yours?
+  - Which is your book?
   type: chinese
   comment: ! 'Covers: 您. Cost: 0.0'
 - chinese: 您已经吃过药了吗？
@@ -460,12 +548,6 @@
   - Have you taken your medicine yet?
   type: chinese
   comment: ! 'Covers: 药. Cost: 0.0'
-- chinese: 他有一个鸡蛋，他在吃鸡蛋。
-  english:
-  - He has an egg and is eating it.
-  pinyin: tā yǒu yī gè jīdàn tā zài chī jīdàn
-  type: chinese
-  comment: ! 'Covers: 鸡蛋. Cost: 0.0'
 - chinese: ! 'Jenny: 你在吃什么?
 
     Ken: 我在吃|水果。
@@ -487,102 +569,37 @@
 '
   type: chinese
   comment: ! 'Covers: 好吃. Cost: 0.0'
-- chinese: 他在家休息一个小时。
+- chinese: 他在找吃的东西。
   english:
-  - He rests at home for an hour.
+  - He is looking for something to eat.
+  pinyin: tā zài zhǎo chī de dōngxī
   type: chinese
-  comment: ! 'Covers: 小时. Cost: 0.0'
-- chinese: 我们昨天打篮球。
+  comment: ! 'Covers: 找. Cost: 0.0'
+- chinese: 他开始找工作了。
   english:
-  - We played basketball yesterday.
-  pinyin: wǒmen zuótiān dǎ lánqiú
+  - He began to look for a job.
+  - He's started looking for a job.
+  pinyin: tā kāishǐ zhǎo gōngzuò le
   type: chinese
-  comment: ! 'Covers: 篮球. Cost: 0.0'
-- chinese: ! '"你有看到我的手机吗?" "它在桌子上。"'
+  comment: ! 'Covers: 开始. Cost: 0.0'
+- chinese: 他有一个鸡蛋，他在吃鸡蛋。
   english:
-  - ! '"Have you seen my cell phone?" "It''s on the table."'
-  pinyin: nǐ yǒu kàn dào wǒ de shǒujī ma tā zài zhuōzi shàng
+  - He has an egg and is eating it.
+  pinyin: tā yǒu yī gè jīdàn tā zài chī jīdàn
   type: chinese
-  comment: ! 'Covers: 到. Cost: 0.0'
-- chinese: 猫看着鱼。
-  english:
-  - The cat is watching the fish.
-  - The cat is looking at the fish.
-  type: chinese
-  comment: ! 'Covers: 着. Cost: 0.0'
-- chinese: 今天的报纸我还没有看。
-  english:
-  - I've not read today's paper yet.
-  pinyin: jīntiān de bàozhǐ wǒ hái méiyǒu kàn
-  type: chinese
-  comment: ! 'Covers: 报纸. Cost: 0.0'
-- chinese: 他的妻子是我的一个朋友。
-  english:
-  - His wife is one of my friends.
-  type: chinese
-  comment: ! 'Covers: 妻子. Cost: 0.0'
-- chinese: “你去哪儿了？”“我去了火车站送我的一个朋友。”
-  english:
-  - ! '"Where have you been?" "I have been to the station to see a friend off."'
-  type: chinese
-  comment: ! 'Covers: 送. Cost: 0.0'
+  comment: ! 'Covers: 鸡蛋. Cost: 0.0'
 - chinese: 我和我的朋友都不喜欢羊肉。
   english:
   - My friends and I, we all don’t like lamb.
   pinyin: wǒ hé wǒ de péngyou dōu bù xǐhuan yángròu
   type: chinese
   comment: ! 'Covers: 羊肉. Cost: 0.0'
-- chinese: 我给你介绍一下我的朋友。
+- chinese: 雪很白。
   english:
-  - I'd like you to meet a friend of mine.
+  - Snow is very white.
+  pinyin: xuě hěn bái
   type: chinese
-  comment: ! 'Covers: 介绍. Cost: 0.0'
-- chinese: 他买了新衣服给他的女儿。
-  english:
-  - He bought his daughter a new dress.
-  type: chinese
-  comment: ! 'Covers: 给. Cost: 0.0'
-- chinese: 我儿子爱吃苹果，女儿爱吃西瓜。
-  english:
-  - My son loves to eat apples, my daughter loves to eat watermelon.
-  type: chinese
-  comment: ! 'Covers: 西瓜. Cost: 0.0'
-- chinese: 你的眼睛为什么那么大？
-  english:
-  - Why are your eyes so big?
-  type: chinese
-  comment: ! 'Covers: 眼睛. Cost: 8.026648472930129e-4'
-- chinese: 你知道现在哪本书卖得好吗？
-  english:
-  - Do you know which book sells well now?
-  type: chinese
-  comment: ! 'Covers: 卖. Cost: 0.0'
-- chinese: 零在一前面。
-  english:
-  - Zero comes before one.
-  type: chinese
-  comment: ! 'Covers: 零. Cost: 0.0'
-- chinese: John比我大两岁。
-  english:
-  - John's two years older than me.
-  type: chinese
-  comment: ! 'Covers: 两. Cost: 0.0'
-- chinese: 他姐姐比我哥哥大。
-  english:
-  - His elder sister is older than my eldest brother.
-  type: chinese
-  comment: ! 'Covers: 姐姐. Cost: 0.0'
-- chinese: 你的手表比我的贵。
-  english:
-  - Your watch is more expensive than mine.
-  type: chinese
-  comment: ! 'Covers: 贵. Cost: 0.0'
-- chinese: 今天教室里的学生比昨天还要多。
-  english:
-  - There are many more students in the classroom today than yesterday.
-  pinyin: jīntiān jiàoshì lǐ de xuésheng bǐ zuótiān hái yào duō
-  type: chinese
-  comment: ! 'Covers: 还. Cost: 0.0'
+  comment: ! 'Covers: 白. Cost: 0.0'
 - chinese: 下了很多的雪。
   english:
   - It snowed a lot.
@@ -601,47 +618,49 @@
   - How far is it to the airport?
   type: chinese
   comment: ! 'Covers: 机场. Cost: 0.0'
-- chinese: 他住的离我家很远。
+- chinese: 正在下着雪。
   english:
-  - He lives far away from my house.
+  - It's snowing.
+  pinyin: zhèngzài xià zhe xuě
   type: chinese
-  comment: ! 'Covers: 远. Cost: 0.0'
-- chinese: 学校离我家很近。
-  english:
-  - School is close to my home.
-  pinyin: Xuéxiào lí wǒ jiā hěn jìn.
-  type: chinese
-  comment: ! 'Covers: 近. Cost: 0.0'
+  comment: ! 'Covers: 着. Cost: 0.0'
 - chinese: 从我家到学校有很多公共汽车。
   english:
   - There are a lot of buses from my house to school.
   type: chinese
   comment: ! 'Covers: 从. Cost: 0.0'
-- chinese: ! '"你说得太多了。"他说。'
+- chinese: 他买了新衣服给他的女儿。
   english:
-  - ! '"You talk too much," he said.'
+  - He bought his daughter a new dress.
   type: chinese
-  comment: ! 'Covers: 得. Cost: 0.0'
-- chinese: 他读完那本书了。
+  comment: ! 'Covers: 给. Cost: 0.0'
+- chinese: 我儿子爱吃苹果，女儿爱吃西瓜。
   english:
-  - He finished reading the book.
+  - My son loves to eat apples, my daughter loves to eat watermelon.
   type: chinese
-  comment: ! 'Covers: 完. Cost: 0.0'
+  comment: ! 'Covers: 西瓜. Cost: 0.0'
+- chinese: 他对我们很好，也要我们的帮助。
+  english:
+  - He is friendly to us and wants our help.
+  type: chinese
+  comment: ! 'Covers: 对. Cost: 0.0'
 - chinese: 如果没有白的，黑的也可以。
   english:
   - If there aren't any white ones, black ones are also fine.
   type: chinese
   comment: ! 'Covers: 黑. Cost: 4.3899312536765673e-4'
-- chinese: 我想不出该说什么。
+- chinese: 今天的报纸我还没有看。
   english:
-  - I can't think of anything to say.
+  - I've not read today's paper yet.
+  pinyin: jīntiān de bàozhǐ wǒ hái méiyǒu kàn
   type: chinese
-  comment: ! 'Covers: 出. Cost: 9.817781966698085e-4'
-- chinese: 请往这边看.
+  comment: ! 'Covers: 报纸. Cost: 0.0'
+- chinese: 今天教室里的学生比昨天还要多。
   english:
-  - Look this way, please.
+  - There are many more students in the classroom today than yesterday.
+  pinyin: jīntiān jiàoshì lǐ de xuésheng bǐ zuótiān hái yào duō
   type: chinese
-  comment: ! 'Covers: 往. Cost: 7.212925562608195e-3'
+  comment: ! 'Covers: 还. Cost: 0.0'
 - chinese: 一个月开两次会。
   english:
   - The meeting is held twice a month.
@@ -653,16 +672,43 @@
   - Twice weekly I go swimming.
   type: chinese
   comment: ! 'Covers: 每. Cost: 0.0'
-- chinese: 他开始找工作了。
+- chinese: 今天几月几日？
   english:
-  - He's started looking for a job.
+  - What's the date today?
+  pinyin: jīntiān jī yuè jī rì
   type: chinese
-  comment: ! 'Covers: 找. Cost: 0.0'
-- chinese: 他的手表慢了十分钟。
+  comment: ! 'Covers: 日. Cost: 0.0'
+- chinese: 他住的离我家很远。
   english:
-  - His watch is ten minutes slow.
+  - He lives far away from my house.
   type: chinese
-  comment: ! 'Covers: 慢. Cost: 0.0'
+  comment: ! 'Covers: 远. Cost: 0.0'
+- chinese: 学校离我家很近。
+  english:
+  - School is close to my home.
+  pinyin: Xuéxiào lí wǒ jiā hěn jìn.
+  type: chinese
+  comment: ! 'Covers: 近. Cost: 0.0'
+- chinese: 我想不出该说什么。
+  english:
+  - I can't think of anything to say.
+  type: chinese
+  comment: ! 'Covers: 出. Cost: 9.817781966698085e-4'
+- chinese: 他读完那本书了。
+  english:
+  - He finished reading the book.
+  type: chinese
+  comment: ! 'Covers: 完. Cost: 0.0'
+- chinese: 你今天穿的这件衣服非常漂亮。
+  english:
+  - The clothes you are wearing today are very pretty.
+  type: chinese
+  comment: ! 'Covers: 件. Cost: 0.0'
+- chinese: ! '"你说得太多了。"他说。'
+  english:
+  - ! '"You talk too much," he said.'
+  type: chinese
+  comment: ! 'Covers: 得. Cost: 0.0'
 - chinese: 只要天一放晴,我们就去。
   english:
   - If only it clears up, we'll go.
@@ -674,28 +720,23 @@
   pinyin: diànnǎo fàng zài nǔ:shì men de zuǒbian
   type: chinese
   comment: ! 'Covers: 左边. Cost: 3.1815723330469916e-3'
-- chinese: 你今天穿的这件衣服非常漂亮。
-  english:
-  - The clothes you are wearing today are very pretty.
-  type: chinese
-  comment: ! 'Covers: 件. Cost: 0.0'
-- chinese: 镇外有个垃圾场。
-  english:
-  - There is a refuse dump out of the town.
-  type: chinese
-  comment: ! 'Covers: 外. Cost: 2.1150592216582064e-2'
 - chinese: 这道题其实很容易。
   english:
   - This problem is actually very easy.
   pinyin: Zhè dào tí qíshí hěn róngyì.
   type: chinese
   comment: ! 'Covers: 题. Cost: 8.92936869363336e-3'
-- chinese: 汽车在宾馆外面[旅馆前面]停了下来。
+- chinese: 镇外有个垃圾场。
   english:
-  - The car pulled up outside the guesthouse [in front of the hotel].
-  pinyin: qìchē zài bīnguǎn wài mian lǔ:guǎn qiánmiàn tíng le xiàlai
+  - There is a refuse dump out of the town.
   type: chinese
-  comment: ! 'Covers: 宾馆. Cost: 1.9481784531463084e-2'
+  comment: ! 'Covers: 外. Cost: 2.1150592216582064e-2'
+- chinese: 这一年是二零零五年。
+  english:
+  - The year is 2005.
+  pinyin: zhè yī nián shì èr líng líng wǔ nián
+  type: chinese
+  comment: ! 'Covers: 零. Cost: 0.0'
 - chinese: ! 'A: 你为什么学习汉语？
 
     B: 因为我要去中国，所以我学习汉语。
